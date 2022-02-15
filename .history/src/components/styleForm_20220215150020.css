@@ -1,0 +1,40 @@
+.inName[type=text]{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: red;
+}
+label{
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(50px);
+    border-radius: 40px;
+    height: auto;
+    padding: 40px;
+    margin:auto;
+}
+button{
+        width: 130px;
+        height: 40px;
+        font-size: 1.1em;
+        cursor: pointer;
+        background-color: #171717;
+        color: rgb(231, 178, 63);
+        border: none;
+        transition: ease-in-out 0.8;
+}
+button:hover{
+  border-radius: 5px;
+  transform: translateY(-12px);
+  box-shadow: 0 7px -2px #f85959,
+              0 15px -4px #39a2db,
+              0 16px 10px -3px #39a2db;
+}

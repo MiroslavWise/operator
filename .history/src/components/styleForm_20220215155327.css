@@ -1,0 +1,73 @@
+.inName[type=text]{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: red;
+}
+label{
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(50px);
+    border-radius: 40px;
+    height: auto;
+    padding: 40px;
+    margin:auto;
+}
+button{
+        width: 130px;
+        height: 40px;
+        font-size: 1.1em;
+        cursor: pointer;
+        background-color: #171717;
+        color: rgb(231, 178, 63);
+        border: none;
+        transition: ease-in-out 0.8;
+        margin: 5px;
+}
+
+
+input[type=text],
+input[type=email],
+input[type=tel]
+{
+  width:300px;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel]:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+h6{
+  padding: 0;
+  margin: 0;
+}
+
+.in-in{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    align-items: center;
+}
+
+.uni {
+  margin-left: -25px;
+  height: 40px;
+}
