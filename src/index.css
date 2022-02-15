@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(Picture/pexels-furkan-i̇nce-4249270.jpg);
+  background-size: cover;
 }
 
 code {

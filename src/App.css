@@ -1,10 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none; 
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +30,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(50px);
+    border-radius: 40px;
+    height: auto;
+    padding: 70px;
+    margin:auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+  width: 230px;
+  height: 40px;
+  font-size: 1.1em;
+  cursor: pointer;
+  background-color: #171717;
+  color: rgb(231, 178, 63);
+  border: none;
+  margin: 5px;
+  align-items: center;
+  text-align: center;
 }
